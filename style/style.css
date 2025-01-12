@@ -1,0 +1,42 @@
+:root {
+    --bg-color : #011F3F;
+    --txt-color : #FEF2BF;
+    --main-font: "Press Start 2P";
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-family: var(--main-font), cursive;
+    color: var(--txt-color);
+}
+
+button {
+    padding: 100px;
+    border: solid 10px;
+    border-radius: 50px;
+}
+
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
